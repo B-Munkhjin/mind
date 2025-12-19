@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.box.active{
+    background-color: coral;
+}
